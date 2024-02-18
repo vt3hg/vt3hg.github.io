@@ -1,0 +1,189 @@
+/* start PRESET */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FAF8F2;
+}
+
+.footer {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color:#858585;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h1 {
+    color:#94AAA9;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #94AAA9;
+}
+
+h3 {
+    color: #858585;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 0%;
+}
+
+h4 {
+    color: #858585;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 0%;
+}
+
+.resize {
+    width: 350px;
+    height: auto;
+}
+
+.resize-bio{
+    height: 600px;
+    width: auto;
+}
+
+/* end PRESET */
+
+/* start SITE NAV */
+.site-nav{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.site-nav ul li{
+   display:inline;
+}
+
+.site-nav ul {
+	margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+
+}
+
+.site-nav a {
+    display: block;
+    font-size: 15px;
+	color: #858585;
+	text-decoration: none;
+}
+@media (min-width: 900px) { /* font-size; */
+    .site-nav a {
+        font-size: 16px;
+        padding: 20px 20px;
+    }
+}
+
+.site-nav a:hover {
+	color: #A8605D;
+}
+
+/* end SITE NAV */
+
+/* start FLEX */
+@media (min-width: 900px){
+    .bio, .interests-container, .obsess-container, .face-section {display: flex;}
+}
+/* end FLEX */
+
+/* start BIO */
+.bio {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+}
+
+@media (max-width: 500px) {
+    .bio img {display: none;}
+}
+
+.bio-left {
+    flex: 1;
+}
+
+.bio-right {
+    margin-left: 10px;
+}
+
+/* end BIO */
+
+/* start INTERESTS */
+.interests {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.interests p {font-size: 15px;}
+
+.interests-left {
+    flex: 1;
+    margin-right: 25px;
+}
+
+@media (max-width: 600px) {
+    .interests-left {margin-left: 25px;}
+    .face-left {margin-bottom: 30px;}
+}
+
+.interests-right {
+    flex: 1;
+    margin-left: 25px;
+}
+
+.face-section {
+    margin-bottom: 50px;
+}
+
+.face-left {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.face-right {
+    flex: 2;
+    margin-left: 10px;
+}
+
+.face-resize { 
+    width: 200px;
+    height: auto;
+}
+
+/* end INTERESTS */
+
+/* start OBSESSION  */
+.obsessions {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.obsess-section {flex: 1;}
+
+
+/*end OBSESSION */
+

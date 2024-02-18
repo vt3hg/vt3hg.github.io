@@ -1,0 +1,262 @@
+/* start PRESET */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FAF8F2;
+}
+
+.footer {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    max-width: 100px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+p {
+    color:#858585;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h1 {
+    color:#858585;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #858585;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 0%;
+}
+
+.resize {
+    width: 600px;
+    height: auto;
+}
+
+.resize-logo{
+    width: 400px;
+    height: auto;
+}
+
+@media (max-width: 500px) { /* photo show or no */
+    .container img {display: none;}
+}
+
+@media (min-width: 900px) { /* logo resize */
+    .resize-logo{
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media (min-width: 900px) { /* control flex */
+    .container {display: flex;}
+}
+
+
+/* end PRESET */
+
+/* start SITE NAV */
+.site-nav{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.site-nav ul li{
+   display:inline;
+}
+
+.site-nav ul {
+	margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+
+}
+
+.site-nav a {
+    display: block;
+    font-size: 15px;
+	color: #858585;
+	text-decoration: none;
+}
+@media (min-width: 900px) { /* font-size; */
+    .site-nav a {
+        font-size: 16px;
+        padding: 20px 20px;
+    }
+}
+
+.site-nav a:hover {
+	color: #A8605D;
+}
+/* end SITE NAV */
+
+/* start LOGO + NAME*/
+.container-victrtran {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+@media (max-width: 500px) { /* make text smaller */
+    .container-victrtran h1 {font-size: 30px;}
+}
+
+h1 .victrtran {    
+    color: #94AAA9;
+    font-weight: bold;
+}
+
+h1 .slash {
+    color: #A8605D;
+}
+
+.header {
+    text-align:center;
+}
+/* end LOGO + NAME*/
+
+/* start ABOUT ME */
+.aboutme h2 {
+    color: #94AAA9;
+}
+
+.aboutme {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.aboutme-left {
+    margin-right: 50px;
+}
+
+@media (max-width: 600px) { /* ALLL CONTAINERS */
+    .aboutme, .photography, .graphics, .wireframes, .container, .text {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.aboutme a {
+    color: #94AAA9;
+    border: 2px solid #94AAA9;
+}
+
+.aboutme a:hover {
+    background-color: #94AAA9;
+    color: #ffffff;
+    border: 2px solid #94AAA9; 
+}
+/* end ABOUT ME */
+
+/* start PHOTOS */
+.photography h2 {
+    color: #94a877;
+}
+
+.photography {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.photography-left {
+    margin-right: 50px;
+}
+
+.photography a {
+    color: #94a877;
+    border: 2px solid #94a877;
+}
+
+.photography a:hover {
+    background-color: #94a877;
+    color: #ffffff;
+    border: 2px solid #94a877; 
+}
+
+/* end PHOTOS */
+
+/* start GRAPHICS */
+.graphics h2 {
+    color: #A8605D;
+}
+
+.graphics {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.graphics-left {
+    margin-right: 50px;
+}
+
+.graphics a {
+    color: #A8605D;
+    border: 2px solid #A8605D;
+}
+
+.graphics a:hover {
+    background-color: #A8605D;
+    color: #ffffff;
+    border: 2px solid #A8605D; 
+}
+
+/* end GRAPHICS */
+
+/* start WIREFRAME */
+.wireframes h2 {
+    color: #dba237 ;
+}
+
+.wireframes {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.wireframes-left {
+    margin-right: 50px;
+}
+
+.wireframes a {
+    color: #dba237;
+    border: 2px solid #dba237;
+}
+
+.wireframes a:hover {
+    background-color: #dba237;
+    color: #ffffff;
+    border: 2px solid #dba237; 
+}
+/* end WIREFRAME */
